@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size:15px;
+}
+p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+li.donut-item {
+    text-align: center;
+    width: 23%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+   
+}
+
+img {
+    width: 100%;
+    max-width: 250px;  
+    height: auto;  
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.25); 
+}
+
+li.donut-item p {
+    font-size: 18px;
+    color:black;
+    margin-top: 10px;
+}
